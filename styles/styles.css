@@ -1,0 +1,115 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+	position: relative;
+	color: white;
+	height: 80vh;
+	min-height: 800px;
+	background-image: url('../images/hero-homepage-2019-1800x1185.jpg');
+	background-size: cover;
+}
+
+.header .filter {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header .top-row {
+	padding: 50px 200px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header .top-row ul {
+	list-style-type: none;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header .top-row .logo {
+	width: 50%;
+}
+
+.header .top-row .logo img {
+	width: 100px;
+}
+
+.header .top-row .action-row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+	font-weight: bold;
+}
+
+.header .top-row .navigation {
+	width: 65%;
+}
+
+.header .top-row .account {
+	width: 30%;
+}
+
+.header .splash {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.header .splash h1 {
+	font-size: 60px;
+}
+
+.header .splash p {
+	font-size: 18px;
+	color: rgba(255,255,255,.7);
+}
+
+.header .marketing-panels {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	position: absolute;
+	bottom: 0;
+}
+
+.header .marketing-panels .panel {
+	position: relative;
+	background-color: rgba(100, 100, 100, 0.589);
+	width: 24.8%;
+	height: 335px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.header .marketing-panels .panel:hover {
+	transform: scale(1.02);
+}
+
+.header .marketing-panels .panel h3 {
+	font-size: 28px;
+}
+
+.header .marketing-panels .panel p {
+	font-size: 18px;
+	color: rgba(255,255,255,.7);
+}
+
+.header .marketing-panels .panel .pill-button {
+	position: absolute;
+	bottom: 40px;
+	width: 220px;
+}
+
+.pill-button {
+	display: inline-block;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 30px;
+	background-color: #e5a00d;
+}
